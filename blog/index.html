@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+        {% for post in site.posts %}
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.github.url }}">{{ post.title | escape }}</a>
+            </h2>
+            <p class="lead">
+                by {{ post.author }}
+            </p>
+            <p><span class="glyphicon glyphicon-time"></span>   <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></p>
+            <hr>
+            <div class="custom-image"><img class="img-responsive" src="{{ site.github.url }}/img/{{post.imgurl}}" alt=""></div>
+            <p>{{ post.excerpt }}</p>
+            <a class="btn btn-primary" href="{{ post.url | prepend: site.github.url }}">Daha fazla oku <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <hr>
+        {% endfor %}
+        <ul class="pager">
+            <li class="previous">
+                <a href="#">&larr; Daha Eski</a>
+            </li>
+            <li class="next">
+                <a href="#">Daha Yeni &rarr;</a>
+            </li>
+        </ul>
