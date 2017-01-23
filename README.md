@@ -1,5 +1,5 @@
-# fivetech.github.io
+# tolgadurak.github.io
 
 This is my personal web page.
 
-To visit my web page: https://fivetech.github.io
+To visit my web page: https://tolgadurak.github.io
