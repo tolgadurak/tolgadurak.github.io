@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OpenCV Kurulumu ve Xcode Projesi (OS X El Capitan) "
+title:  "OpenCV Kurulumu ve Xcode Projesi"
 date:   2016-09-03 06:03:14 +0300
 categories: jekyll update
 excerpt_separator: <!--more-->
