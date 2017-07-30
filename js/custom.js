@@ -67,7 +67,7 @@ function runScripts(data, pos) {
 /*introduction*/
 $(function() {
 	$("#typed").typed({
-		strings: ["Kişisel Web Sitesi"],
+		strings: ["Personal Website"],
 		typeSpeed: 100,
     backDelay: 1500,
     loop: false,
