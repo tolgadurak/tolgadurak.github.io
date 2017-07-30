@@ -16,7 +16,7 @@ $(function() {
   },
   {
     action: 'type',
-    strings: ["Sitemi ziyaret ettiğiniz için teşekkürler^400"],
+    strings: ["Thanks for visiting my web site^400"],
     postDelay: 2000
   }
 
